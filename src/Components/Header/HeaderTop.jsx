@@ -6,7 +6,7 @@ function HeaderTop() {
             <div className='flex justify-evenly w-[300px]'>
                 <strong><h1 className='text-[42px]'>list</h1></strong>
                 <div className='flex justify-evenly items-center w-[150px]'>
-                <i class="fa fa-bars"></i>
+                <i className="fa fa-bars"></i>
                 <p className='text-[20px]'>Բաժիններ</p>
                 </div>
             </div>
