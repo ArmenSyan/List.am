@@ -52,36 +52,44 @@ const dataBase = {
         {
             text: "Ամանորյա պարագաներ",
             color: "black",
-            bckImg :"https://sa.list.am/457.png"
+            bckImg :"https://sa.list.am/457.png",
+            bckColor:"#FFD2DD"
         }, {
             text: "Խաղեր և խաղային համակարգեր",
             color: "black",
-            bckImg: "https://sa.list.am/442.png"
+            bckImg: "https://sa.list.am/450.png",
+            bckColor:"#AEE2FF"
 
         }, {
             text: "Գործող բիզնես",
             color: "black",
-            bckImg: "https://sa.list.am/457.png"
+            bckImg: "https://sa.list.am/418.png",
+            bckColor:"#FFE1D2"
         }, {
             text: "Ամեն ինչ տան համար",
             color: "black",
-            bckImg: "https://sa.list.am/457.png"
-        }, {
+            bckImg: "https://sa.list.am/436.png",
+            bckColor:"#C4B6FF"  
+        }, {    
             text: "List-ում անվտանգությու",
             color: "black",
-            bckImg: "https://sa.list.am/457.png"
+            bckImg: "https://sa.list.am/440.png",
+            bckColor:" #FFDF8F"
         }, {
             text: "Ականջակալներ",
             color: "black",
-            bckImg: "https://sa.list.am/457.png"
+            bckImg: "https://sa.list.am/444.png",
+            bckColor:"#9DEAA8"
         }, {
             text: "Քեշբեք գնումներից",
             color: "white",
-            bckImg: "https://sa.list.am/457.png"
+            bckImg: "https://sa.list.am/464.png",
+            bckColor:"#C4C4C4"
         }, {
             text: "Խթանեք Ձեր բիզնեսը",
             color: "black",
-            bckImg: "https://sa.list.am/457.png"
+            bckImg: "https://sa.list.am/442.png",
+            bckColor:"#71BCFF"
         }
     ],
     buisnessPages: [
