@@ -2,7 +2,7 @@ import React from 'react'
 import BodyBP from './Body/BodyBP'
 import BodyDelevery from './Body/BodyDelevery'
 import BodyCars from './Body/BodyCars'
-// import BodyProperty from './Body/BodyProperty'
+import BodyProperty from './Body/BodyProperty'
 // import BodyPhones from './Body/BodyPhones'
 
 function Body({ dataBase }) {
@@ -17,10 +17,10 @@ function Body({ dataBase }) {
             <h1 className='text-[24px] m-[25px]'><strong>{`Ավտոմեքենաներ >`} </strong></h1>
             <BodyCars cars={dataBase.cars} />
 
-            {/* <h1 className='text-[24px] m-[25px]'><strong>{`Կոմերցիոն անշարժ գույքի և գրասենյակների վարձակալություն >`} </strong></h1>
+            <h1 className='text-[24px] m-[25px]'><strong>{`Կոմերցիոն անշարժ գույքի և գրասենյակների վարձակալություն >`} </strong></h1>
             <BodyProperty property={dataBase.property} />
 
-            <h1 className='text-[24px] m-[25px]'><strong>{`Էլեկտրոնիկա >`} </strong></h1>
+            { /*<h1 className='text-[24px] m-[25px]'><strong>{`Էլեկտրոնիկա >`} </strong></h1>
             <BodyPhones phones={dataBase.phones} /> */}
         </div>
     )
