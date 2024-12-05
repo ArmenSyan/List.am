@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='flex flex-col justify-evenly items-center'>
       <Header dataBase={dataBase} />
-      {/* <Body  dataBase={dataBase}/> */}
+      <Body  dataBase={dataBase}/>
     </div>
   )
 }
