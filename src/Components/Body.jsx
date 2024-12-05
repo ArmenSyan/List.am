@@ -3,7 +3,7 @@ import BodyBP from './Body/BodyBP'
 import BodyDelevery from './Body/BodyDelevery'
 import BodyCars from './Body/BodyCars'
 import BodyProperty from './Body/BodyProperty'
-// import BodyPhones from './Body/BodyPhones'
+import BodyPhones from './Body/BodyPhones'
 
 function Body({ dataBase }) {
     return (
@@ -20,8 +20,8 @@ function Body({ dataBase }) {
             <h1 className='text-[24px] m-[25px]'><strong>{`Կոմերցիոն անշարժ գույքի և գրասենյակների վարձակալություն >`} </strong></h1>
             <BodyProperty property={dataBase.property} />
 
-            { /*<h1 className='text-[24px] m-[25px]'><strong>{`Էլեկտրոնիկա >`} </strong></h1>
-            <BodyPhones phones={dataBase.phones} /> */}
+            <h1 className='text-[24px] m-[25px]'><strong>{`Էլեկտրոնիկա >`} </strong></h1>
+            <BodyPhones phones={dataBase.phones} /> 
         </div>
     )
 }
