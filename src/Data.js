@@ -275,7 +275,7 @@ const dataBase = {
             type: "2014 թ., 120,000 կմ, Բենզին"
         },
     ],
-    Phones:[
+    phones:[
         {
             src: "https://s.list.am/h/673/84905673.webp",
             price: "630,000 ֏",
