@@ -13,7 +13,7 @@ function BodyProperty({property}) {
               '
             />
 
-            <strong><p className='text-[18px] mt-[25px]'>{el.price}</p></strong>
+            <strong><p className='text-[18px] mt-[25px] text-[#1A1D3E]'>{el.price}</p></strong>
             
             <p className='text-[14px]  text-[#1A1D3E] h-[50px]'>{el.text}</p>
 

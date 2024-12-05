@@ -13,7 +13,7 @@ function BodyDelevery({ delevery }) {
               '
             />
 
-            <strong><p className='text-[18px] mt-[25px]'>{el.price} ֏</p></strong>
+            <strong><p className='text-[18px] mt-[25px] text-[#1A1D3E]'>{el.price} ֏</p></strong>
             <div className='flex text-[13px] bg-[#FF8A24] text-white p-[6px] rounded-[8px] mt-[15px]'>
               <img src='https://www.list.am/img/redesign/icons/buy-with-delivery-label.svg' />
               <p >Գնել առաքումով</p>
